@@ -64,28 +64,28 @@ export const datas = [
 
 export const projects = [
   {
-    imageSrc: "./assets/Anywhere.png",
+    imageSrc: "/images/Anywhere.png",
     name: "Anywhere",
     repoUrl: "https://github.com/itss0urav/Anywhere2.0",
     description:
       " Anywhere/Anywhere 2.0 is a web application designed to foster a sense of community and encourage meaningful discussions among its users.",
   },
   {
-    imageSrc: "./assets/VogueVault.png",
+    imageSrc: "/images/VogueVault.png",
     name: "VogueVault",
     repoUrl: "https://github.com/itss0urav/vogue-vault",
     description:
       " A Backend less Men's shopping site. State management handled using ContextAPI.",
   },
   {
-    imageSrc: "./assets/TaskMate.png",
+    imageSrc: "/images/TaskMate.png",
     name: "TaskMate",
     repoUrl: "https://github.com/itss0urav/task-mates",
     description:
       "TaskMate is a web application designed to help people manage their tasks.",
   },
   {
-    imageSrc: "./assets/Note4You.png",
+    imageSrc: "/images/Note4You.png",
     name: "Note4You",
     repoUrl: "https://github.com/itss0urav/Note4You",
     description:

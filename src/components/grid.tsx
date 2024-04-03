@@ -13,7 +13,7 @@ interface GridProps {
 
 const Grid: FC<GridProps> = ({ data }) => {
   return (
-    <section className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-3 gap-4">
       {data.map((item, index) => (
         <a key={index} href={item.href}>
           <Button className="flex justify-between p-2 hover:bg-cyan-500 transition-all duration-1000 ">
@@ -26,7 +26,7 @@ const Grid: FC<GridProps> = ({ data }) => {
           </Button>
         </a>
       ))}
-    </section>
+    </div>
   );
 };
 
