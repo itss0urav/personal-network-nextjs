@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { FC } from "react";
 import { Button } from "@/components/ui/moving-border";
 

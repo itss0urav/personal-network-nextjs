@@ -97,21 +97,25 @@ export const personalData = [{ mail: "sourav2021official@gmail.com" }];
 
 export const socials = [
   {
+    name: "LinkedIn",
     href: "https://www.linkedin.com/in/itssourav/",
     src: "https://img.shields.io/badge/-LinkedIn-2867B2?style=flat-square&logo=linkedin&logoColor=white",
     alt: "LinkedIn",
   },
   {
+    name: "GitHub",
     href: "https://github.com/itss0urav",
     src: "https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white",
     alt: "GitHub",
   },
   {
+    name: "Instagram",
     href: "https://www.instagram.com/itssourav.dev/",
     src: "https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white",
     alt: "Instagram",
   },
   {
+    name: "Medium",
     href: "https://medium.com/@itss0urav",
     src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Medium_%28website%29_logo.svg/2560px-Medium_%28website%29_logo.svg.png",
     alt: "Medium",

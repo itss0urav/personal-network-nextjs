@@ -5,7 +5,7 @@ import { Spotlight } from "@/components/ui/Spotlight";
 import { Button } from "@/components/button";
 import { LampContainer } from "@/components/ui/lamp";
 import Grid from "@/components/grid";
-import { datas, projects } from "@/app/data/datas";
+import { datas, projects, socials } from "@/app/data/datas";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
             fill="white"
           />
           <h1 className="text-6xl font-bold">
-            I'm a <br />
+            I&apos;m a <br />
             full stack developer
           </h1>
           <p className="mt-3 text-2xl w-[70%] ">
@@ -46,14 +46,14 @@ export default function Home() {
         </section>
       </div>
       <section id="skills" className="w-full">
-        <LampContainer className="">
+        <LampContainer>
           <h2 className="text-4xl font-bold">Skills</h2>
-          <div className="flex justify-center items-center w-full">
-            <div className="flex justify-center mt-[10%]">
-              <Grid data={datas} />
-            </div>
-          </div>
         </LampContainer>
+        <div className="flex justify-center items-center w-full">
+          <div className="flex justify-center my-16">
+            <Grid data={datas} />
+          </div>
+        </div>
       </section>
       <section id="projects" className="w-full">
         <LampContainer>
@@ -117,7 +117,20 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section id="contact"></section>
+      <section
+        id="#contact"
+        className="h-screen flex justify-center items-center"
+      >
+        <div className="flex mt-6 justify-center">
+          {socials.map((data, index) => (
+            <Link key={index} href={data.href}>
+              <Button className=" hover:scale-105 transition-all   mx-3  font-bold text-white ">
+                {data.name}
+              </Button>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
